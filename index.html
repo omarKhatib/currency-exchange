@@ -12,17 +12,18 @@
 
 <body>
     <label>from</label>
-    <select onchange="exchange();" id='from'>
-        <option>choose the currency</option>
+    <select onchange="gC();" id='from'>
+
     </select>
     <label>to</label>
-    <select onchange="exchange();" id='to'>
-        <option>choose the currency</option>
+    <select id='to'>
+       
     </select>
+    <button id='ex' onclick="exchange();">exchange</button>
     <br>
-    <input id='in' type='number' placeholder='in dollar'>
+    <input id='in' type='number'>
     <input id='res' type='number' placeholder='result' disabled>
-    
+
     <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
     <script src='js.js'></script>
 </body>
